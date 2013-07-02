@@ -1,8 +1,14 @@
 libWipe for FirefoxOS
 =====================
 
-This software uses LD_PRELOAD to hook on 'unlink'
-Run file wiper alorithm before removing
+This software uses LD_PRELOAD to hook on 'unlink' and
+wipe the contents of the file before removing the file.
+
+WARNING: This library comes with absolutely no warranty.
+Depending on storage and filesystem used this kind of
+wipe will not be much effective. It's your own responsability
+to do the necessary tests to ensure this can protect your
+privacy.
 
 Plug your fxos device accessible via usb
 
